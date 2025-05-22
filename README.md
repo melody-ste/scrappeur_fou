@@ -10,5 +10,5 @@ To run the tests make sure you have Ruby and RSpec installed.
 
 ### Program Contents
 - First program: Scrapes cryptocurrency prices from [CoinMarketCap](https://coinmarketcap.com/all/views/all/)
--Second program: Finds the email addresses of townhalls from [https://lannuaire.service-public.fr/navigation/mairie](https://lannuaire.service-public.fr/navigation/mairie) 
+- Second program: Finds the email addresses of townhalls from [https://lannuaire.service-public.fr/navigation/mairie](https://lannuaire.service-public.fr/navigation/mairie) 
 
