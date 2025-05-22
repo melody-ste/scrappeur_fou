@@ -17,7 +17,7 @@ doc.xpath('//table//tbody/tr').each do |row|
   begin
     symbol_element = row.at_xpath('./td[2]/div/a[2]')&.text&.strip || "N/A"
     price_element_text = row.at_xpath('./td[5]/div/span')&.text&.strip || "N/A"
-    
+
     price = if price_element_text == "N/A"
               "N/A"
             else
@@ -30,7 +30,5 @@ doc.xpath('//table//tbody/tr').each do |row|
     crypto_array << { "N/A" => "N/A" }
   end
 end
- 
-# puts " #{symbol} : #{price} USD"
   
 # puts "\n Résultat final : #{crypto_array.size} cryptos récupérées"
