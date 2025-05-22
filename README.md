@@ -4,6 +4,7 @@ Exercices scrappeur fou
 This repository contain two  folders :
 - ./lib with two ruby programs. 
 - ./spec contains the corresponding RSpec test files for each program.
+
 There is also a Gemfile including the following gems: pry, rspec, rubocop, nokogiri, httparty, and webmock.
 
 To run the tests make sure you have Ruby and RSpec installed.
